@@ -16,10 +16,13 @@
       <RowConstraints />
       <RowConstraints />
       <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
    </rowConstraints>
    <children>
-       <Label fx:id="txt" text="Click the button to start the game." />
-      <Button fx:id="btn" mnemonicParsing="false" onAction="#pressButton" prefHeight="68.0" prefWidth="187.0" text="Button" GridPane.rowIndex="4" />
-       <Label fx:id="Score" prefHeight="17.0" prefWidth="188.0" text="Score: 0" GridPane.rowIndex="3" />
+       <Label fx:id="txt" text="Click the button to start the game." GridPane.rowIndex="2" />
+       <Label fx:id="time" prefHeight="17.0" prefWidth="188.0" text="Time Left: 10000000000" GridPane.rowIndex="1" />
+      <Button fx:id="btn" mnemonicParsing="false" onAction="#pressButton" prefHeight="68.0" prefWidth="187.0" text="Button" GridPane.rowIndex="6" />
+       <Label fx:id="Score" prefHeight="17.0" prefWidth="188.0" text="Score: 0" GridPane.rowIndex="5" />
    </children>
 </GridPane>
