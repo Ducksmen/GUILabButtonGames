@@ -28,7 +28,7 @@ public class Controller implements Initializable
                 public void handle(long now) {
                     if(now > step)
                     {
-                        Score.setText("You ended with " + score);
+                        Score.setText("You ended with " + score + ", " + name);
                         counting = false;
                         done = true;
                         time.setText("Time Left: 0");

@@ -24,8 +24,8 @@
    <children>
        <Label fx:id="txt" text="Click the button to start the game." GridPane.rowIndex="3" />
        <Label fx:id="time" prefHeight="17.0" prefWidth="188.0" text="Time Left: 10000000000" GridPane.rowIndex="2" />
-      <Button fx:id="btn" mnemonicParsing="false" onAction="#pressButton" prefHeight="68.0" prefWidth="187.0" text="Button" GridPane.rowIndex="7" alignment="center"/>
+      <Button fx:id="btn" alignment="center" mnemonicParsing="false" onAction="#pressButton" prefHeight="68.0" prefWidth="282.0" text="Button" GridPane.rowIndex="7" />
        <Label fx:id="Score" prefHeight="17.0" prefWidth="188.0" text="Score: 0" GridPane.rowIndex="6" />
-      <TextField fx:id="field" alignment="center" text="type your name here" GridPane.rowIndex="1" />
+      <TextField fx:id="field" alignment="center" text="type name before clicking" GridPane.rowIndex="1" />
    </children>
 </GridPane>
