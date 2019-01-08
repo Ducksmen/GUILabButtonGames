@@ -16,7 +16,7 @@ public class BackEnd {
 
 
         List<records> z = new ArrayList<>();
-        Path pathToFile = Paths.get("highScores.csv");
+        Path pathToFile = Paths.get("src/sample/highScores.csv");
 
         try(BufferedReader br = Files.newBufferedReader(pathToFile, StandardCharsets.UTF_8)){
             String line = br.readLine();
@@ -71,7 +71,7 @@ public class BackEnd {
         }
     }
     public static void write(List<records> r) throws IOException{
-        FileWriter x =  new FileWriter("highScores.csv");
+        FileWriter x =  new FileWriter("src/sample/highScores.csv");
         x.append(Controller.name);
         x.append(",");
         x.append(String.valueOf(Controller.score));
